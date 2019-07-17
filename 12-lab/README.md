@@ -66,3 +66,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+Number and name of feature: Create forms and Components 
+
+Estimate of time needed to complete: 2hr
+
+Start time: 930
+
+Finish time: 1020
+
+Actual time needed to complete: 50 min
