@@ -9,9 +9,9 @@ require('dotenv').config();
 function Routing(props){
   return(
     <Router>
-    {/* <Route exact path="/" component={Home} /> */}
+    <Route exact path="/" component={Home} />
     <Route path="/location" component={Location} />
-    {/* <Route path="/weather" component={Weather} /> */}
+    <Route path="/weather" component={Weather} />
     </Router>
   )
 

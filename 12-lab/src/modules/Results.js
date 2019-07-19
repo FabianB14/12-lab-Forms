@@ -3,6 +3,7 @@ import React from 'react';
 function Results(props) {
   return (
     <React.Fragment>
+      <div class="column-container">
       <section>
         <h3>Results from the Dark Sky AP</h3>
         <ul>
@@ -12,27 +13,41 @@ function Results(props) {
       <section>
         <h3>Results from the Yelp API</h3>
         <ul>
-          <li>Cloudy Reviews</li>
+        <li><a href=""></a>
+          <p></p>
+          <p></p>
+          </li>
         </ul>
       </section>
       <section>
         <h3>Results from the Eventbrite </h3>
         <ul>
-          <li>Partly interesting</li>
+          <li><a href=""></a>
+          <p></p>
+          <img src=""></img></li>
         </ul>
       </section>
       <section>
         <h3>Results from The Movie DB API</h3>
         <ul>
-          <li>Partly cloudy movie</li>
+        <li><p><span></span></p>
+          <img src=""></img>
+          <p></p>
+          </li>
         </ul>
       </section>
       <section>
         <h3>Results from the Hiking Project API</h3>
         <ul>
-          <li>Movie Hike</li>
+          <li>
+        <p><a href=""></a></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        </li>
         </ul>
       </section>
+      </div>
       </React.Fragment>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react';
-import '../App.css';
+// import '../App.css';
+import './scss/core.scss';
 import Header from './Header.js'
 import Main from './Main.js'
 import Routing from './Router.js'
@@ -10,7 +11,14 @@ class App extends React.Component{
   constructor(props){
     super(props)
     this.state = {
-      results: []
+      backendUrl: '',
+      googleResults: {},
+      apiResults: {
+        weather : [],
+        yelp : [],
+        events: [],
+        movies : []
+      }
     }
   }
   render(){
