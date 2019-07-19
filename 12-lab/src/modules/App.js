@@ -1,5 +1,4 @@
 import React from 'react';
-// import '../App.css';
 import './scss/core.scss';
 import Header from './Header.js'
 import Main from './Main.js'
